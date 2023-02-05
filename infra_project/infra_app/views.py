@@ -3,7 +3,7 @@ from http import HTTPStatus
 
 
 def index(request):
-    return HttpResponse('У меня получилось!', status=HTTPStatus.OK)
+    return HttpResponse('У меня получилось! ха', status=HTTPStatus.OK)
 
 
 def second_page(request):
